@@ -1,0 +1,8 @@
+<ul>
+    <button id="myClick">click here to fire my event</button>
+    <li data-aura-component="heading"  data-aura-my-heading="This is my first app"></li>
+    <% _.each(children,function(value,index){ %>
+    <li data-aura-component="child" data-aura-my-name="<%= value %> " >
+    </li>
+    <% }) %>
+</ul>
